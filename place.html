@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Information page about Japan including data, weather, and images.">
+  <meta name="author" content="Alejandra Díaz Rojas">
+  <title>Japan</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Japan</h1>
+  </header>
+
+  <main>
+
+    <picture class="hero">
+      <source srcset="images/japan-large.webp" media="(min-width: 768px)">
+      <img src="images/japan-small.webp" alt="Beautiful landscape of Japan">
+    </picture>
+
+    <section class="info">
+
+      <div class="data">
+        <h2>Data</h2>
+        <ul>
+          <li><strong>Area:</strong> 377,975 km²</li>
+          <li><strong>Population:</strong> 125 million</li>
+          <li><strong>Capital:</strong> Tokyo</li>
+          <li><strong>Language:</strong> Japanese</li>
+          <li><strong>Currency:</strong> Japanese Yen (¥)</li>
+          <li><strong>Time Zone:</strong> JST (UTC+9)</li>
+          <li><strong>Calling Code:</strong> +81</li>
+          <li><strong>Internet TLD:</strong> .jp</li>
+        </ul>
+      </div>
+
+      <div class="weather">
+        <h2>Weather</h2>
+        <img class="weather-icon" src="images/weather.svg" alt="Weather icon">
+        <p><strong>Temperature:</strong> 8 °C</p>
+        <p><strong>Conditions:</strong> Partly Cloudy</p>
+        <p><strong>Wind Speed:</strong> 12 km/h</p>
+        <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> ✨ Alejandra Díaz Rojas ✨ Japan</p>
+    <p id="lastModified"></p>
+  </footer>
+
+</body>
+</html>
