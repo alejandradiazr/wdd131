@@ -63,12 +63,6 @@ main {
   padding: 1rem;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
-
 figure {
   text-align: center;
 }
