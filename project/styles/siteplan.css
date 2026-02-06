@@ -53,9 +53,12 @@ section {
 }
 
 img {
-    max-width: 100%;
+    width: 60%;
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
     border: 1px solid #ccc;
-    margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 footer {
