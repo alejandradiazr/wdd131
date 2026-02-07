@@ -26,34 +26,39 @@
         <legend>Overall Rating</legend>
 
         <input type="radio" id="rate1" name="rating" value="1" required>
-        <input type="radio" id="rate2" name="rating" value="2" required>
-        <input type="radio" id="rate3" name="rating" value="3" required>
-        <input type="radio" id="rate4" name="rating" value="4" required>
-        <input type="radio" id="rate5" name="rating" value="5" required>
+        <label for="rate1">☆</label>
 
+        <input type="radio" id="rate2" name="rating" value="2" required>
+        <label for="rate2">☆☆</label>
+
+        <input type="radio" id="rate3" name="rating" value="3" required>
+        <label for="rate3">☆☆☆</label>
+
+        <input type="radio" id="rate4" name="rating" value="4" required>
+        <label for="rate4">☆☆☆☆</label>
+
+        <input type="radio" id="rate5" name="rating" value="5" required>
+        <label for="rate5">☆☆☆☆☆</label>
     </fieldset>
 
     <label for="date">Date of Installation</label>
     <input type="date" id="date" name="date" required>
 
     <fieldset>
-    <legend>Overall Rating</legend>
+        <legend>Useful Features</legend>
 
-    <input type="radio" id="rate1" name="rating" value="1" required>
-    <label for="rate1">☆</label>
+        <input type="checkbox" id="feature1" name="feature1" value="Durable">
+        <label for="feature1">Durable</label>
 
-    <input type="radio" id="rate2" name="rating" value="2" required>
-    <label for="rate2">☆☆</label>
+        <input type="checkbox" id="feature2" name="feature2" value="Easy to use">
+        <label for="feature2">Easy to use</label>
 
-    <input type="radio" id="rate3" name="rating" value="3" required>
-    <label for="rate3">☆☆☆</label>
+        <input type="checkbox" id="feature3" name="feature3" value="Affordable">
+        <label for="feature3">Affordable</label>
 
-    <input type="radio" id="rate4" name="rating" value="4" required>
-    <label for="rate4">☆☆☆☆</label>
-
-    <input type="radio" id="rate5" name="rating" value="5" required>
-    <label for="rate5">☆☆☆☆☆</label>
-</fieldset>
+        <input type="checkbox" id="feature4" name="feature4" value="Good quality">
+        <label for="feature4">Good quality</label>
+    </fieldset>
 
     <label for="review">Written Review</label>
     <textarea id="review" name="review"></textarea>
