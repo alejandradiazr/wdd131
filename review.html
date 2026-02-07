@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alejandra Díaz">
+    <meta name="description" content="Confirmation page showing successful submission of a product review.">
+    <title>Review Submitted</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+
+<header>
+    <h1>Thank You!</h1>
+</header>
+
+<main>
+    <p>Your review has been submitted successfully.</p>
+    <p>Total reviews submitted: <span id="counter"></span></p>
+</main>
+
+<footer>
+    <p>© 2026 ✨ Alejandra Díaz ✨</p>
+</footer>
+
+<script>
+    let count = localStorage.getItem("reviewCount");
+
+    if (count === null) {
+        count = 0;
+    }
+
+    count++;
+
+    localStorage.setItem("reviewCount", count);
+
+    document.getElementById("counter").textContent = count;
+</script>
+
+</body>
+</html>

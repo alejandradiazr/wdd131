@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #800ca3;
+}
+
+header {
+    background-color: #800ca3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d6cfd6;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+fieldset {
+    margin-top: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #e2dbe2;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #cfcfcf;
+    color: black;
+    border: 1px solid #999;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #b5b5b5;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #800ca3;
+    color: white;
+    padding: 15px;
+}
